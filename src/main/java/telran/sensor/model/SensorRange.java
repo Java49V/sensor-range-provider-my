@@ -30,5 +30,5 @@ public class SensorRange {
 		this.max = max;
 	}
 
-    // Constructors, getters, and setters
+   
 }

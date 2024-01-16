@@ -11,7 +11,7 @@ public class RangeResponse implements Serializable {
     private String description;
 
     public RangeResponse() {
-        // Default constructor for serialization
+        
     }
 
     public RangeResponse(int min, int max) {

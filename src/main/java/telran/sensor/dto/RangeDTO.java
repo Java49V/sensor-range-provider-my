@@ -16,6 +16,6 @@ public class RangeDTO {
 		this.max = max;
 	}
 
-    // Constructors, getters, and setters
+    
 }
 
