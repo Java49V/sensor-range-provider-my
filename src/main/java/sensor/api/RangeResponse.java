@@ -1,4 +1,4 @@
-package telran.sensor.api;
+package sensor.api;
 
 import java.io.Serializable;
 

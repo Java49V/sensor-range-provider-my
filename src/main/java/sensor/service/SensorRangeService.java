@@ -1,11 +1,12 @@
-package telran.sensor.service;
+package sensor.service;
 
-import telran.sensor.dto.RangeDTO;
-import telran.sensor.model.SensorRange;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Service;
-import telran.sensor.repo.SensorRangeRepository;
+
+import sensor.dto.RangeDTO;
+import sensor.model.SensorRange;
+import sensor.repo.SensorRangeRepository;
 @SpringBootApplication
 @Service
 public class SensorRangeService {

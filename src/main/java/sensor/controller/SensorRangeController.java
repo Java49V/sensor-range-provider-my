@@ -1,15 +1,16 @@
-package telran.sensor.controller;
+package sensor.controller;
 
-import telran.sensor.api.RangeResponse;
-import telran.sensor.exceptions.RangeNotFoundException;
-import telran.sensor.dto.RangeDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import telran.sensor.service.*;
+
+import sensor.api.RangeResponse;
+import sensor.dto.RangeDTO;
+import sensor.exceptions.RangeNotFoundException;
+import sensor.service.*;
 
 @RestController
 @RequestMapping("/sensor")

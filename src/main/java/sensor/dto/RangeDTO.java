@@ -1,4 +1,4 @@
-package telran.sensor.dto;
+package sensor.dto;
 
 public class RangeDTO {
     private int min;

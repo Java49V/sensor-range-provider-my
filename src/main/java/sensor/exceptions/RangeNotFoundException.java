@@ -1,4 +1,4 @@
-package telran.sensor.exceptions;
+package sensor.exceptions;
 
 import java.io.Serializable;
 

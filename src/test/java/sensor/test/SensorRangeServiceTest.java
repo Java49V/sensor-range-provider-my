@@ -1,13 +1,14 @@
-package telran.sensor.test;
+package sensor.test;
 
-import telran.sensor.dto.RangeDTO;
-import telran.sensor.model.SensorRange;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-import telran.sensor.repo.SensorRangeRepository;
-import telran.sensor.service.SensorRangeService;
+
+import sensor.dto.RangeDTO;
+import sensor.model.SensorRange;
+import sensor.repo.SensorRangeRepository;
+import sensor.service.SensorRangeService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyString;
